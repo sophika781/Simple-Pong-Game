@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/student2/sgoban/coe758/VGA/impact.xsl
+OUTFILE=/home/student2/sgoban/coe758/VGA/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/student2/sgoban/coe758/VGA
+LICENSE=iMPACT
+USER_INFO=iMPACT

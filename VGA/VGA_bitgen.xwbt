@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/student2/sgoban/coe758/VGA/VGA.ncd
+OUTFILE=/home/student2/sgoban/coe758/VGA/VGA.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/student2/sgoban/coe758/VGA
+LICENSE=ISE
+USER_INFO=175353682_174116511_210722484_808

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/student2/sgoban/coe758/VGA/VGA_isim_beh.exe" -prj "/home/student2/sgoban/coe758/VGA/VGA_beh.prj" "work.VGA" 

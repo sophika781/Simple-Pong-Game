@@ -1,0 +1,1314 @@
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 
+xst -intstyle ise -ifn "/home/student2/sgoban/coe758/VGA/VGA.xst" -ofn "/home/student2/sgoban/coe758/VGA/VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s500e-fg320-4 VGA.ngc VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_map.ncd VGA.ngd VGA.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_map.ncd VGA.ncd VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA.twx VGA.ncd -o VGA.twr VGA.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f VGA.ut VGA.ncd 

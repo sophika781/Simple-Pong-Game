@@ -1,0 +1,40 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Fri Dec 01 12:02:59 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "H" LOCATE = SITE "C5" LEVEL 1;
+COMP "V" LOCATE = SITE "D5" LEVEL 1;
+COMP "blue<0>" LOCATE = SITE "A13" LEVEL 1;
+COMP "blue<1>" LOCATE = SITE "B13" LEVEL 1;
+COMP "blue<2>" LOCATE = SITE "A14" LEVEL 1;
+COMP "blue<3>" LOCATE = SITE "B14" LEVEL 1;
+COMP "blue<4>" LOCATE = SITE "C14" LEVEL 1;
+COMP "blue<5>" LOCATE = SITE "D14" LEVEL 1;
+COMP "blue<6>" LOCATE = SITE "A16" LEVEL 1;
+COMP "blue<7>" LOCATE = SITE "B16" LEVEL 1;
+COMP "switches<0>" LOCATE = SITE "N17" LEVEL 1;
+COMP "switches<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "switches<2>" LOCATE = SITE "L14" LEVEL 1;
+COMP "switches<3>" LOCATE = SITE "L13" LEVEL 1;
+COMP "red<0>" LOCATE = SITE "A6" LEVEL 1;
+COMP "red<1>" LOCATE = SITE "B6" LEVEL 1;
+COMP "red<2>" LOCATE = SITE "E7" LEVEL 1;
+COMP "red<3>" LOCATE = SITE "F7" LEVEL 1;
+COMP "red<4>" LOCATE = SITE "D7" LEVEL 1;
+COMP "red<5>" LOCATE = SITE "C7" LEVEL 1;
+COMP "red<6>" LOCATE = SITE "F8" LEVEL 1;
+COMP "red<7>" LOCATE = SITE "E8" LEVEL 1;
+COMP "green<0>" LOCATE = SITE "F9" LEVEL 1;
+COMP "green<1>" LOCATE = SITE "E9" LEVEL 1;
+COMP "green<2>" LOCATE = SITE "D11" LEVEL 1;
+COMP "green<3>" LOCATE = SITE "C11" LEVEL 1;
+COMP "green<4>" LOCATE = SITE "F11" LEVEL 1;
+COMP "green<5>" LOCATE = SITE "E11" LEVEL 1;
+COMP "green<6>" LOCATE = SITE "E12" LEVEL 1;
+COMP "green<7>" LOCATE = SITE "F12" LEVEL 1;
+COMP "DAC_CLK" LOCATE = SITE "A4" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
