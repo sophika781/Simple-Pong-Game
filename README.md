@@ -1,1 +1,2 @@
-# COE-758-VGAxs
+# COE-758-VGA
+Pong Game using VGA, coded in VHDL
